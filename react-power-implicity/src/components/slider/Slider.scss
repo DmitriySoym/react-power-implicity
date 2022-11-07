@@ -76,3 +76,11 @@
 .bar.checked {
   background: url(../../img/Elipse-check.svg) no-repeat;
 }
+@media screen and (max-width: 640px) {
+  .slider {
+    &__title {
+      font-size: 42px;
+      line-height: 60px;
+    }
+  }
+}
