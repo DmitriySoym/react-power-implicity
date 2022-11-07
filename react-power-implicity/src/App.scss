@@ -1,18 +1,21 @@
 body {
   margin: 0;
-  font-family: "Helvetica";
 }
 
 #root {
-  background: linear-gradient(124.53deg, #fc3f5f 0%, #7d61ff 100.32%);
+  padding: 0;
+  font-family: "Helvetica";
+  background: linear-gradient(124.53deg, #fc3f5f 0%, #7d61ff 100.32%) no-repeat
+    center/cover;
   padding-top: 121px;
+  padding-bottom: 121px;
 }
 
 .app {
-  width: 1410px;
+  max-width: 1410px;
+  //   width: 100%;
   height: 1010px;
-  left: 191px;
-  top: 121px;
+
   margin: 0 auto;
   background: linear-gradient(
     180deg,
