@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: "Helvetica";
+}
+
+#root {
+  background: linear-gradient(124.53deg, #fc3f5f 0%, #7d61ff 100.32%);
+  padding-top: 121px;
+}
+
+.app {
+  width: 1410px;
+  height: 1010px;
+  left: 191px;
+  top: 121px;
+  margin: 0 auto;
+  background: linear-gradient(
+    180deg,
+    rgba(43, 34, 21, 0.8) -1.22%,
+    #22282e 101.33%
+  );
+  box-shadow: 0px 0px 250px rgba(0, 0, 0, 0.3);
+  border-radius: 32px;
+  padding: 32px;
+}
