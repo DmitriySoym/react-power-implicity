@@ -1,5 +1,5 @@
-import { Header } from "./components/header/Header";
-import { Slider } from "./components/slider/Slider";
+import { Header } from "./components/Header/Header";
+import { Slider } from "./components/Slider/Slider";
 import "./App.scss";
 
 export const App = () => {

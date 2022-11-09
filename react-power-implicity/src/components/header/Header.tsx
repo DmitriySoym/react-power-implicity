@@ -1,39 +1,20 @@
 import "./Header.scss";
-import logo from "../../img/Vector-logo.png";
-
-const headerlogo = (
-  <div className="header__logo">
-    <img src={logo} alt="logo" />
-  </div>
-);
-
-const headerButton = (
-  <div className="header__button">
-    <button type="submit">Download for free</button>
-  </div>
-);
-
-const navItem = (
-  <ul className="header__nav_row">
-    <li className="header__nav_item">
-      <a href="#">Features</a>
-    </li>
-    <li className="header__nav_item">
-      <a href="#">Partners</a>
-    </li>
-    <li className="header__nav_item">
-      <a href="#">Stories</a>
-    </li>
-  </ul>
-);
-const headerNav = <nav className="header__nav">{navItem}</nav>;
+import { ReactComponent as LogoIcon } from "../../assets/icons/apple-logo.svg";
 
 export const Header = () => {
   return (
     <header className="header">
-      {headerlogo}
-      {headerNav}
-      {headerButton}
+      <LogoIcon className="header__logo" />
+
+      <nav className="header__nav">
+        <a className="header__nav header__nav--link">Features</a>
+        <a className="header__nav header__nav--link">Partners</a>
+        <a className="header__nav header__nav--link">Stories</a>
+      </nav>
+
+      <button className="header__button" type="submit">
+        Download for free
+      </button>
     </header>
   );
 };
