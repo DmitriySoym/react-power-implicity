@@ -1,6 +1,8 @@
 ### Project name: React power implicity
 
-### Runs the app in the development mode: ## npm start
+### Runs the app in the development mode: 
+
+## npm start
 
 ### Screenshot:
 
