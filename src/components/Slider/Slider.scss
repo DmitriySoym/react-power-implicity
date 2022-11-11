@@ -5,7 +5,7 @@
   margin: 184px auto 0;
   color: #f2f4f7;
 
-  &__item {
+  &__content {
     height: 373px;
   }
 
@@ -29,10 +29,6 @@
     flex-grow: 0;
   }
 
-  &__input {
-    margin-top: 80px;
-  }
-
   &__button {
     border: 2px solid transparent;
     border-image: linear-gradient(92.82deg, #fc4060 0%, #8061fd 100%);
@@ -52,6 +48,7 @@
   }
 
   &__dots {
+    margin-top: 80px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;

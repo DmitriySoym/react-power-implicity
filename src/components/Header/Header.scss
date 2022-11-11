@@ -18,7 +18,7 @@
     padding: 0;
   }
 
-  &__nav--link {
+  &__nav-link {
     color: #a0a3a7;
     cursor: pointer;
   }
@@ -44,11 +44,12 @@ a {
 
 @media screen and (max-width: 640px) {
   .header {
-    grid: 1fr/ 1fr 1fr 2fr;
+    grid: 1fr/ 0.5fr 1fr 1fr;
     grid-template-areas: "block1 block2 block3";
 
     &__nav {
-      display: block;
+      display: flex;
+      flex-direction: column;
       text-align: center;
     }
 
@@ -57,7 +58,7 @@ a {
       padding: 0;
     }
 
-    &__nav--link {
+    &__nav-link {
       margin: 10px 0;
     }
   }
